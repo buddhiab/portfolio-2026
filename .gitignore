@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/lib/generated/prisma
+
+# temp utility scripts
+add-fruit-web.js
+add-fruit-web.mjs
+seed-all-projects.mjs
+check-db.mjs
+delete-dupes.mjs
+fix-cache.mjs
+update-summai-image.mjs
+build-error.log
