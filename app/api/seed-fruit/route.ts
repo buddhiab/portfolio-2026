@@ -6,11 +6,10 @@ export async function GET() {
         await prisma.project.create({
             data: {
                 title: "Fruit Web",
-                category: "E-Commerce",
+                category: "E-Commerce (HTML, CSS, JavaScript)",
                 description: "A modern, responsive e-commerce web platform for fresh fruit delivery. Built with standard web technologies and integrated with modern UI principles.",
                 imageUrl: "/projects/fruit-web.png",
                 githubUrl: "https://github.com/buddhiab/fruit-web",
-                technologies: "HTML,CSS,JavaScript",
             }
         });
         return NextResponse.json({ success: true, message: "Added Fruit Web" });
