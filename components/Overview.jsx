@@ -113,7 +113,7 @@ export default function Overview3D() {
                     <div className="absolute inset-0 bg-linear-to-tr from-purple-500/20 via-transparent to-transparent z-10 rounded-3xl pointer-events-none transition-opacity duration-500 group-hover:opacity-100 opacity-60" />
                     <div className="absolute inset-0 border border-white/10 rounded-3xl z-20 pointer-events-none" />
                     <Image
-                        src="/projects/Profile.png"
+                        src="/projects/Profile.png?v=1"
                         alt="Profile Picture"
                         fill
                         className="object-cover rounded-3xl transition-transform duration-700 group-hover:scale-105"
